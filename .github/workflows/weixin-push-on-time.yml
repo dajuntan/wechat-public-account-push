@@ -5,9 +5,9 @@ name: weixin-push-on-time
 
 on:
   workflow_dispatch:
-  schedule:
+  schedule:37c670829ca43a7dbb1d8611d1924c33
     # 每天国际时间 02:10 运行, 即北京时间 10:10 运行
-    - cron: '10 2 * * *'
+    - cron: '023 * * *'
     
 jobs:
   build:
